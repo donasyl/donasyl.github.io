@@ -82,3 +82,5 @@ expense_income_by_category
 # Item/Service Expenses
 filtered_finances$Note...5
 
+# Save as HTML
+htmlwidgets::saveWidget(ggplotly(p), "finance_plot.html")
